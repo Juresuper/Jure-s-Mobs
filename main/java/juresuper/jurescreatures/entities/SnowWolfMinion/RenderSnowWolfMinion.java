@@ -4,6 +4,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
+import net.minecraft.client.renderer.entity.layers.LayerEndermanEyes;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.client.registry.IRenderFactory;
 import net.minecraftforge.fml.relauncher.Side;
@@ -35,9 +36,10 @@ public class RenderSnowWolfMinion extends RenderLiving<EntitySnowWolfMinion>
 		{
 			return new RenderSnowWolfMinion(manager);
 			
+		
+		 
 		}
-		
-		
+	
 	}
 	
 

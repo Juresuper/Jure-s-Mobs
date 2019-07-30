@@ -4,6 +4,7 @@ package juresuper.jurescreatures;
 
 import org.apache.logging.log4j.Logger;
 
+import juresuper.jurescreatures.handlers.RegistryHandler;
 import juresuper.jurescreatures.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -36,6 +37,7 @@ public class Main
     @Mod.EventHandler
     public void init(FMLInitializationEvent e) {
         proxy.init(e);
+        RegistryHandler.InitRegistries();
     }
 
     @Mod.EventHandler

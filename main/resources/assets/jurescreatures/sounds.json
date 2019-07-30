@@ -1,0 +1,8 @@
+{
+   "entities.snowwolfminion.ambient":
+   {
+   "category": "entities",
+   "subtitle": " entities.snowwolfminion.ambient",
+   "sounds: [{"name": "jurescreatures:entities/snowwolfminion/ambient", "stream": true}]
+   }
+}
